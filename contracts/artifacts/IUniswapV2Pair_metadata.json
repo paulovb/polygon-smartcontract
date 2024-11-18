@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getReserves",
+				"outputs": [
+					{
+						"internalType": "uint112",
+						"name": "reserve0",
+						"type": "uint112"
+					},
+					{
+						"internalType": "uint112",
+						"name": "reserve1",
+						"type": "uint112"
+					},
+					{
+						"internalType": "uint32",
+						"name": "blockTimestampLast",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token0",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token1",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GetBTCPrice.sol": "IUniswapV2Pair"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GetBTCPrice.sol": {
+			"keccak256": "0x9fffbca58951154b62baa5cae4d994346fc6fc6a77628fc1669ec2c40241d3ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3752fc463c8316ca3d13acef21c49f1550ada76e1c47b1a983cb2417142ecda6",
+				"dweb:/ipfs/QmdNuRqsKwwEzM6m5Bd2xDPQTfLzzSfYSjcvApJMGhjwDo"
+			]
+		}
+	},
+	"version": 1
+}

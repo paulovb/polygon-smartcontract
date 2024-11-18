@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_wbtcAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_usdcAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_uniswapPair",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getWBTCPriceInUSDT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "uniswapPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "usdcAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wbtcAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GetBTCPrice.sol": "WBTCUSDTPriceChecker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GetBTCPrice.sol": {
+			"keccak256": "0x9fffbca58951154b62baa5cae4d994346fc6fc6a77628fc1669ec2c40241d3ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3752fc463c8316ca3d13acef21c49f1550ada76e1c47b1a983cb2417142ecda6",
+				"dweb:/ipfs/QmdNuRqsKwwEzM6m5Bd2xDPQTfLzzSfYSjcvApJMGhjwDo"
+			]
+		}
+	},
+	"version": 1
+}
